@@ -16,7 +16,7 @@ pub use chart::Renderer;
 pub use error::Error;
 pub use widget::ChartWidget;
 
-mod backend;
+pub mod backend;
 mod chart;
 mod error;
 mod renderer;
