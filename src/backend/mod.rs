@@ -33,7 +33,7 @@ use crate::error::Error;
 use crate::utils::{cvt_color, cvt_stroke, CvtPoint};
 
 /// The Iced drawing backend
-pub(crate) struct IcedChartBackend<'a, B> {
+pub struct IcedChartBackend<'a, B> {
     frame: &'a mut canvas::Frame,
     backend: &'a B,
     shaping: Shaping,
